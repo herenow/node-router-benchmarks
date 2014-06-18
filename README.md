@@ -40,9 +40,9 @@ journey                  4770.10         4423.57
 regex                    11233.89        9814.03
 ```
 
-**Notes about this result**
-* **koa** and **express** are not just routers, they are robust frameworks, they are doing a lot more then just route the request. The added overhead may or not be worth it depending on what you are building.
-* **rawhttp** is a reference to a control benchmark, its not routing anything.
+**Notes about this results**
+* `koa` and `express` are not just routers, they are robust frameworks, they are doing a lot more then just route the request. The added overhead may or not be worth it depending on what you are building.
+* `rawhttp` is a reference to a control benchmark, its not routing anything.
 
 
 TODO
