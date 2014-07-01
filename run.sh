@@ -3,7 +3,7 @@
 #Run each router and write results
 #I'll use wrk instead of apache bench
 
-Routers=('rawhttp' 'koa' 'light-router' 'light-router-no-cache' 'express' 'barista' 'choreographer' 'clutch' 'connect' 'escort' 'journey' 'regex')
+Routers=('rawhttp' 'express' 'hapi' 'light-router' 'light-router-no-cache' 'koa' 'barista' 'choreographer' 'clutch' 'connect' 'escort' 'journey' 'regex')
 First_route="http://127.0.0.1:2048/products/foo"
 Last_route="http://127.0.0.1:2048/twenty/foo"
 Green='\033[0;32m'

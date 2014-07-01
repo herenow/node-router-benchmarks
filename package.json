@@ -12,7 +12,8 @@
     "express": "*",
     "light-router": "*",
     "koa": "*",
-    "koa-router": "*"
+    "koa-router": "*",
+    "hapi": "*"
   },
   "repository": {
     "type": "git",

@@ -29,6 +29,7 @@ router    first route (req/sec)  20th route (req/sec)
 rawhttp                  10887.88        10407.13
 koa                      4354.73         4276.30
 express                  7697.21         6825.72
+hapi                     1198.65         1233.84
 light-router             10414.99        10270.18
 light-router (no-cache)  10502.09        10052.09
 barista                  8114.13         2214.44
@@ -43,6 +44,7 @@ regex                    11233.89        9814.03
 **Notes about this results**
 * `koa` and `express` are not just routers, they are robust frameworks, they are doing a lot more then just route the request. The added overhead may or not be worth it depending on what you are building.
 * `rawhttp` is a reference to a control benchmark, its not routing anything.
+* I'm not sure why `hapi` performed so poorly
 
 
 TODO
