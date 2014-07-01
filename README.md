@@ -1,9 +1,7 @@
 Node.js Router Benchmarks
 =========================
 
-First of all, I'm the author of [light-router](https://github.com/herenow/light-router), so this benchmark isn't really fair. This is a fork from mnutt, and I use this scripts to keep my router in check. You are free to edit the scripts and run your tests.
-
-** This benchmarks arent really ready, but its a start **
+This is a fork from mnutt. You are free to edit the scripts and run your tests. This benchmarks show the least overhead you will get when using each framework/router without a reverse proxy cache.
 
 Running the tests
 -------
