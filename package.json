@@ -7,13 +7,15 @@
     "choreographer": "*",
     "clutch": "*",
     "connect": "1.5.1",
+    "director": "*",
     "escort": "*",
-    "journey": "*",
     "express": "*",
-    "light-router": "*",
+    "hapi": "*",
+    "journey": "*",
     "koa": "*",
     "koa-router": "*",
-    "hapi": "*"
+    "light-router": "*",
+    "total.js": "*"
   },
   "repository": {
     "type": "git",
